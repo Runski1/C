@@ -1,35 +1,22 @@
 #include <stdio.h>
 
-void clear_input_buffer(void) {
-  while (getchar() != '\n')
-    ;
-}
-
-/* got bored of writing input validations
- * so might aswell write a function for it
- *
- * I CBA to write one that can take different parameters in,
- * for example strings for printf's and such. Did try at first,
- * but The way some of the prompts for user input include nested integers,
- * I would've had to craft strings before passing them in variables. so CBA*/
+/* Got finally bored of validating inputs on the fly */
 int get_validated_int(void) {
   int input, result;
-  char term;
 
   while (1) {
-    result = scanf("%d%c", &input, &term);
-    /* not my own idea to find EOF in input buffer, but
-     * IIUC user might end input with ctrl+D or similar, which
-     * would in turn put EOF in the buffer*/
-    while (term != '\n' && term != EOF) {
-      clear_input_buffer();
-    }
-    if (result == 2 &&
-        term == '\n') { // 2, not 1: scanf should match input AND term
-      // I think there's a bug here if user inputs EOF after valid int
-      return input;
+    /* if I were to clear input buffer here, it would lead
+     * to unexpected behaviour with the first input*/
+    result = scanf("%d", &input);
+    if (result == 1) {
+      while (getchar() != '\n') {} // So I do it twice, here for inputs such as "3LOL"
+      break;
+    } else {
+      while (getchar() != '\n') {} // and here if no integer is found in input
+      printf("Please enter an integer: ");
     }
   }
+  return input;
 }
 
 int main(void) {
@@ -39,18 +26,22 @@ int main(void) {
 
   printf("How many students: ");
   student_count = get_validated_int();
-  printf("Student's added: %d \n", student_count);
 
-  int students[student_count]; // init students-array
+  int students[student_count];
+  /* note to future self who is never goint to read this, 
+   * if for some reason I ever change students from int
+   * to something else, this next loop sizing would break if it was
+   * divided sizeof(int) instead of sizeof(student[0]) */
   for (int i = 0; i < (sizeof(students) / sizeof(students[0])); i++) {
     students[i] = default_grade;
-  }
+  } // are for loops really so bad?
 
   do { // loop to select students, 0 to print
     printf("Enter student number (1-%d) or 0 to stop: ", student_count);
     selected_student = get_validated_int();
 
-    if (selected_student == 0) { // final print
+    // this is where the program ends, with the final print
+    if (selected_student == 0) {
       printf("%10s %10s\n", "Student", "Grade");
       for (int i = 0; i < student_count; i++) {
         if (students[i] != -1) {
@@ -59,7 +50,7 @@ int main(void) {
           printf("%10d %10s\n", i + 1, "N/A");
         }
       }
-      return 0; // Student selection loop is broken by the return statement, I
+      return 0; // Student selection loop is never broken before this return statement, I
                 // wonder if it's ok...
 
       /* Loop until valid grade is gotten */
