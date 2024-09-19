@@ -15,6 +15,8 @@ int read_string(char *str, int max_strlen) {
     clear_input_buffer();
     return 1;
   } else {
+    char *newline = strchr(nullfinder, '\n');
+    *newline = '\0';
     return 0;
   }
 }
