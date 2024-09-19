@@ -1,6 +1,6 @@
 #include <stdbool.h>
 #include <stdio.h>
-#define INT_MAX 0x7FFFFFFF // max signed int32
+#define MY_INT_MAX 0x7FFFFFFF // max signed int32
 #define MAX_INT32_CHARS 12 // 10c + \0 + \n
 
 bool read_string(char *str, int max_strlen);
@@ -15,7 +15,7 @@ bool read_positive(int *value) {
     sscanf(input_str, "%ld", &number);
   }
 
-  if (number > 0 && number <= INT_MAX) {
+  if (number > 0 && number <= MY_INT_MAX) {
     *value = (int)number;
     return true;
   } else {

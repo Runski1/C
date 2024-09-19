@@ -4,18 +4,19 @@
 #define MAX_STRLEN 200
 
 void clear_input_buffer(void);
-bool read_string(char *str, int max_strlen);
+int read_string(char *str, int max_strlen);
 
 int main(void) {
   char string[MAX_STRLEN] = {'\0'};
+  int result = 0;
   do {
     printf("Input a string, or \"stop\" to quit the program.\n> ");
-    if (!read_string(string, MAX_STRLEN)) {
-      /* CTRL+D caused infinite loop, so here's a fix for it.*/
-      if (feof(stdin)) {
-        printf("EOF detected, exiting program.\n");
-        break;
-      }
+
+    result = read_string(string, MAX_STRLEN);
+    if (result == -1) {
+      printf("Program stopped. (exit code %d)\n", result);
+      return -1;
+    } else if (result == 1) {
       printf("String is too long or an error occured.\n");
     } else {
       size_t string_length = strlen(string);

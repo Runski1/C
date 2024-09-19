@@ -4,13 +4,17 @@
 
 void clear_input_buffer(void);
 
-bool read_string(char *str, int max_strlen) {
+int read_string(char *str, int max_strlen) {
   char *nullfinder;
   nullfinder = fgets(str, max_strlen, stdin);
   if (nullfinder == NULL || strchr(nullfinder, '\n') == NULL) {
+    if (feof(stdin)) {
+      clearerr(stdin);
+      return -1;
+    }
     clear_input_buffer();
-    return false;
+    return 1;
   } else {
-    return true;
+    return 0;
   }
 }
