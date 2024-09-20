@@ -1,7 +1,9 @@
+#include <errno.h>
+#include <limits.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
-#define LINESIZE 14 // 12 for negative int + \n\0
+#include <string.h>
+#define LINESIZE 80 // 12 for negative int + \n\0
 #define FILENAME_LEN 30
 
 /* I need to do something with my read_integer. Maybe read lld?
@@ -10,19 +12,37 @@
  */
 int read_string(char *str, int max_strlen);
 
+/*
+#include <stdio.h>
+#include <errno.h>
+
+int main() {
+    FILE *file = fopen("non_existent_file.txt", "r");
+    
+    if (file == NULL) {
+        // Custom formatted error message
+        char errmsg[100];
+        snprintf(errmsg, sizeof(errmsg), "Failed to open '%s'", "non_existent_file.txt");
+        perror(errmsg);
+    }
+    
+    return 0;
+}
+*/
 int main(void) {
   FILE *my_file;
   char str[LINESIZE]; // \0 and \n
   int linecount = 0;
-  int min = INT_MAX;
-  int max = INT_MIN;
+  long int min = LONG_MAX;
+  long int max = LONG_MIN;
   int num = 0;
-  int result = 1;
   char filename[FILENAME_LEN] = {'\0'};
-  
+  char err_msg[FILENAME_LEN] = {'\0'};
+  errno = 0; // just in case errno has been already set
+
   printf("Open a file\n>./");
-  if(read_string(filename, FILENAME_LEN)) {
-    printf("Bad filename. Program exits.\n");
+  if (read_string(filename, FILENAME_LEN)) {
+    printf("\nBad filename. Program exits.\n");
     return EXIT_FAILURE;
   }
   my_file = fopen(filename, "r");
@@ -32,20 +52,26 @@ int main(void) {
   } else {
     printf("File was opened.\n");
   }
-  while (!feof(my_file) && result) {
+  while (!feof(my_file) && errno == 0) {
     if (fgets(str, LINESIZE, my_file) != NULL) {
-      result = sscanf(str, "%d", &num);
-      if (result) {
-        if (num > max && result)
-          max = num;
-        if (num < min && result)
-          min = num;
-        linecount++;
+      num = strtol(str, NULL, 0);
+      if (num > max) {
+        max = num;
       }
+      if (num < min) {
+        min = num;
+      }
+      linecount++;
     }
   }
   printf("Numbers read: %d\n", linecount);
-  printf("Min: %d\nMax: %d\n", min, max);
+  printf("Min: %ld\nMax: %ld\n", min, max);
+  if (!feof(my_file)) {
+    printf("The file was not fully read.\n");
+    perror("Line %d");
+    fclose(my_file);
+    return EXIT_FAILURE;
+  }
   fclose(my_file);
   return EXIT_SUCCESS;
 }
