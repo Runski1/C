@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #define LINESIZE 80 // 12 for negative int + \n\0
-#define FILENAME_LEN 30
+#define NAME_LEN 30
 
 /* I need to do something with my read_integer. Maybe read lld?
  * What I think happens here is that ln34 or 35 reads the int only partially
@@ -13,19 +13,19 @@
 int read_string(char *str, int max_strlen);
 
 /*
-#include <stdio.h>
 #include <errno.h>
+#include <stdio.h>
 
 int main() {
     FILE *file = fopen("non_existent_file.txt", "r");
-    
+
     if (file == NULL) {
         // Custom formatted error message
         char errmsg[100];
-        snprintf(errmsg, sizeof(errmsg), "Failed to open '%s'", "non_existent_file.txt");
-        perror(errmsg);
+        snprintf(errmsg, sizeof(errmsg), "Failed to open '%s'",
+"non_existent_file.txt"); perror(errmsg);
     }
-    
+
     return 0;
 }
 */
@@ -36,12 +36,12 @@ int main(void) {
   long int min = LONG_MAX;
   long int max = LONG_MIN;
   int num = 0;
-  char filename[FILENAME_LEN] = {'\0'};
-  char err_msg[FILENAME_LEN] = {'\0'};
+  char filename[NAME_LEN] = {'\0'};
+  char err_msg[LINESIZE] = {'\0'};
   errno = 0; // just in case errno has been already set
 
   printf("Open a file\n>./");
-  if (read_string(filename, FILENAME_LEN)) {
+  if (read_string(filename, NAME_LEN)) {
     printf("\nBad filename. Program exits.\n");
     return EXIT_FAILURE;
   }
@@ -67,8 +67,8 @@ int main(void) {
   printf("Numbers read: %d\n", linecount);
   printf("Min: %ld\nMax: %ld\n", min, max);
   if (!feof(my_file)) {
-    printf("The file was not fully read.\n");
-    perror("Line %d");
+    snprintf(err_msg, sizeof(err_msg), "%s - Line %d", filename, linecount);
+    perror(err_msg);
     fclose(my_file);
     return EXIT_FAILURE;
   }

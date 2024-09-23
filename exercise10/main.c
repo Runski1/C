@@ -1,9 +1,8 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
-#define MAX_STRLEN 200
+#define MAX_STRLEN 0xFFF
 
-void clear_input_buffer(void);
 int read_string(char *str, int max_strlen);
 
 int main(void) {
@@ -20,10 +19,11 @@ int main(void) {
       printf("String is too long or an error occured.\n");
     } else {
       size_t string_length = strlen(string);
+      /* I have since modified read_string to remove the \n
       if (string_length > 0 && string[string_length - 1] == '\n') {
         string[string_length - 1] = '\0';
-        printf("Your string is %d characters long.\n", (int)string_length - 1);
-      }
+      } */
+      printf("Your string is %d characters long.\n", (int)string_length);
     }
   } while (strcmp(string, "stop") != 0);
   return 0;
