@@ -1,11 +1,9 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
+#include "../lib/read_input.h"
 #define MAX_STRLEN 0xFFF // this is capped by my OS or Terminal emulator
 #define MAX_WORDLEN 0xFF
-
-void clear_input_buffer(void);
-int read_string(char *str, int max_strlen);
 
 int count_words(const char *str, const char *word) {
   int count = 0;

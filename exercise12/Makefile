@@ -3,12 +3,12 @@ CC = gcc
 CFLAGS = -Wall -g -I../lib/
 SRCS = main.c ../lib/read_input.c
 OBJS = $(SRCS:.c=.o)
-HDRS = ../lib/read_input.h
-TARGET = read_file_numbers
+TARGET = count_words
 
 # Build the target with dependencies
 $(TARGET).out : $(OBJS)
-	$(CC) $(CFLAGS) -o $(TARGET).out $(OBJS)
+	@ echo "Building $(TARGET)\n"
+	@ $(CC) $(CFLAGS) -o $(TARGET).out $(OBJS)
 
 # Rule to compile each .c file into an object file
 %.o : %.c
@@ -16,12 +16,11 @@ $(TARGET).out : $(OBJS)
 
 # make clean
 clean:
-	rm -f $(OBJS) $(TARGET).out
+	@ rm -f $(OBJS) $(TARGET).out
 
 # Zip for submission
-zip: $(SRCS) $(HDRS)
-	mkdir -p _
-	cp $(SRCS) _
-	cp $(HDRS) _
-	zip -r $(TARGET).zip _
-	rm -rf _/
+zip: $(SRCS)
+	@ mkdir -p _
+	@ cp $(SRCS) _
+	@ zip -r $(TARGET).zip _
+	@ rm -rf _/
