@@ -1,6 +1,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <limits.h>
+#include <string.h>
 
 #define MAX_INT32_CHARS 12 // 10c + \0 + \n
 
@@ -24,7 +25,7 @@ int read_integer(void) {
   return input;
 }
 
-int read_string(char *str, int len);
+int read_string(char *str, int len, FILE *stream);
 
 bool read_positive(int *value) {
   /* I don't get why won't we just use unsigned int instead */
@@ -32,7 +33,7 @@ bool read_positive(int *value) {
   long int number = -1;
   printf("Enter a positive number: ");
 
-  if (read_string(input_str, MAX_INT32_CHARS)) {
+  if (read_string(input_str, MAX_INT32_CHARS, stdin)) {
     sscanf(input_str, "%ld", &number);
   }
 
@@ -55,24 +56,21 @@ int read_range(int low, int high) {
   } while (chosen_num < low || chosen_num > high);
   return chosen_num;
 }
-#include <string.h>
-#include <stdbool.h>
-#include <stdio.h>
 
-int read_string(char *str, int max_strlen) {
+int read_string(char *str, int max_strlen, FILE *stream) {
   char *nullfinder;
-  nullfinder = fgets(str, max_strlen, stdin);
+  nullfinder = fgets(str, max_strlen, stream);
   if (nullfinder == NULL || strchr(str, '\n') == NULL) {
-    if (feof(stdin)) {
-      clearerr(stdin);
-      return -1;
+    if (feof(stream)) {
+      clearerr(stream);
+      return -1; // EOF
     }
-    clear_input_buffer();
-    return 1;
+    // clear_input_buffer(); This has been a pain in the ass for me :(
+    return 1; // Invalid input, in most cases too long string
   } else {
     char *newline = strchr(str, '\n');
     *newline = '\0';
-    return 0;
+    return 0; // success
   }
 }
 
@@ -80,7 +78,7 @@ bool read_uint(unsigned int *value) {
   char input_str[MAX_INT32_CHARS] = "\0";
   long long int number = -1;
 
-  if (read_string(input_str, MAX_INT32_CHARS)) {
+  if (read_string(input_str, MAX_INT32_CHARS, stdin)) {
     sscanf(input_str, "%lld", &number);
   }
 
