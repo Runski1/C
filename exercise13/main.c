@@ -14,7 +14,7 @@ int main(void) {
   char filename[NAME_LEN] = {'\0'};
 
   printf("Open a file\n>./");
-  if (read_string(filename, NAME_LEN)) {
+  if (read_string(filename, NAME_LEN, stdin)) {
     printf("\nBad filename. Program exits.\n");
     return EXIT_FAILURE;
   }

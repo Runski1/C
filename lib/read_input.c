@@ -1,15 +1,19 @@
+#include <limits.h>
 #include <stdbool.h>
 #include <stdio.h>
-#include <limits.h>
 #include <string.h>
+/* If you name your file longer than 30 characters
+ * you are an idiot who deserves to be burned at the stake
+ */
+#define FILENAME_LEN 30
 
 #define MAX_INT32_CHARS 12 // 10c + \0 + \n
 
 void clear_input_buffer(void) {
   int c;
-  while ((c = getchar()) != '\n' && c != EOF) {}
+  while ((c = getchar()) != '\n' && c != EOF) {
+  }
 }
-
 
 int read_integer(void) {
   int input = 0, result = 0;
@@ -65,7 +69,13 @@ int read_string(char *str, int max_strlen, FILE *stream) {
       clearerr(stream);
       return -1; // EOF
     }
-    // clear_input_buffer(); This has been a pain in the ass for me :(
+    /* This is hacky way of doing things, but only way I can think of 
+     * to prevent too long user inputs to flooding into later fgets calls that 
+     * read from stdin.
+     * */
+    if (stream == stdin) {
+      clear_input_buffer();
+    }
     return 1; // Invalid input, in most cases too long string
   } else {
     char *newline = strchr(str, '\n');
@@ -89,4 +99,18 @@ bool read_uint(unsigned int *value) {
     number = -1;
     return false;
   }
+}
+
+/* Returns pointer to FILE on success, null pointer on failure 
+ * modes: "r", "w" ... for fopen
+ * */
+FILE * open_file(char* filename, const int filename_len, char *mode) {
+  FILE *file = NULL;
+  printf("Enter filename:\n> ");
+  if (read_string(filename, filename_len, stdin) != 0) {
+    printf("Bad filename.\n");
+    return NULL;
+  }
+  file = fopen(filename, mode);
+  return file;
 }
