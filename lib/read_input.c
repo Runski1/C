@@ -16,17 +16,21 @@ void clear_input_buffer(void) {
 }
 
 int read_integer(void) {
-  int input = 0, result = 0;
+  long long int input = 0;
+  int result = 0;
 
   while (!result) {
-    result = scanf("%d", &input);
+    result = scanf("%lld", &input);
     if (!result) {
-      printf("Invalid input! Enter an number:\n");
+      printf("Invalid input! Enter a valid number:\n");
+    } else if (input < INT_MIN || input > INT_MAX) {
+      printf("Number out of range! Enter a number between %d and %d.\n", INT_MIN, INT_MAX);
+      result = 0;
     }
     while (getchar() != '\n') {
     }
   }
-  return input;
+  return (int) input;
 }
 
 int read_string(char *str, int len, FILE *stream);
@@ -41,7 +45,7 @@ bool read_positive(int *value) {
     sscanf(input_str, "%ld", &number);
   }
 
-  if (number > 0 && number <= INT_MAX) {
+  if (number >= 0 && number <= INT_MAX) {
     *value = (int)number;
     return true;
   } else {
@@ -50,14 +54,12 @@ bool read_positive(int *value) {
   }
 }
 
-int read_range(int low, int high) {
+int read_range(int low, int high, char *str) {
   int chosen_num = low - 1;
-  do {
-    while (low > chosen_num || high < chosen_num) {
-      printf("Enter a number between %d and %d.\n", low, high);
-      chosen_num = read_integer();
-    }
-  } while (chosen_num < low || chosen_num > high);
+  while (low > chosen_num || high < chosen_num) {
+    printf("%s", str);
+    chosen_num = read_integer();
+  }
   return chosen_num;
 }
 

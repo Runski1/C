@@ -19,9 +19,9 @@ bool passwordify(char *pwd, int array_size, const char *word) {
         pwd[i] = '\0';
     }
     /* The length of the soon to be produced password is already known.
-     * First bit changes all the characters that are included in final password
+     * First, change all the characters that are included in final password
      * to random printable ASCII (95 characters from 32 onwards)
-     * leaving the rest in 32 character array as \0
+     * leaving the rest in 65 character array as \0
      * */
     for (int j = 0; j < password_length; j++) {
         pwd[j] = (char)(rand() % 95 + 32);
@@ -40,21 +40,27 @@ int main(void) {
     srand(time(NULL));
     char password[EXT_SIZE(WORD_LENGTH)] = {'\0'};
     char word[WORD_LENGTH] = {'\0'};
-    bool not_stop = true;
+    bool stop = false;
 
     int ret_val = 0;
-    while (not_stop) {
+    while (!stop) {
+        printf(
+            "Enter a seed to generate password or 'stop' to quit program.\n> ");
         ret_val = read_string(word, WORD_LENGTH, stdin);
         if (strcmp(word, "stop") == 0) {
-            not_stop = false;
+            stop = true;
         }
 
-        if (!ret_val && not_stop) {
+        if (!ret_val && !stop && word[0] != '\0') {
             if (passwordify(password, EXT_SIZE(WORD_LENGTH), word)) {
                 printf("%s\n", password);
-            } else {printf("You somehow managed to trigger this warning.\n");}
+            } else {
+                printf("You somehow managed to trigger this warning.\n");
+            }
         } else if (ret_val == 1) {
-            printf("Input too long. (max %d characters)\n", WORD_LENGTH);
+            printf("Seed is too long. (max %d characters)\n", WORD_LENGTH);
+        } else if (word[0] == '\0') {
+            printf("The seed should have atleast 1 character.\n");
         }
     }
 

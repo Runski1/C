@@ -6,7 +6,7 @@
 
 void clear_input_buffer(void);
 int read_integer(void);
-int read_range(int low, int high);
+int read_range(int low, int high, char *str);
 int read_string(char *str, int max_strlen, FILE *stream);
 FILE * open_file(char* filename, const int filename_len, char *mode);
 
