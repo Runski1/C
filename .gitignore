@@ -64,3 +64,8 @@ exercise13/nums.txt
 exercise14/legacy_main.c
 exercise15/*.txt
 .clang-format
+project/Projects_2024.pdf
+project/dev/
+project/functions/tui*
+project/generated_errors.csv
+

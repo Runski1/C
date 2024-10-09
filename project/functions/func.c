@@ -6,10 +6,12 @@
 
 void clear_ibuf(void) {
     char c;
-    while ((c = getchar()) != '\n' && c != EOF) {
+    while ((c = getchar()) != EOF && c != '\n') {
     }
 }
-char * TUI(char **rooms) {
+
+
+char *TUI(char **rooms) {
     int choice = 0, i = 0;
     do {
         i = 0;
@@ -25,11 +27,10 @@ char * TUI(char **rooms) {
     return rooms[choice - 1];
 }
 
-
 void print_temperature(char *choice, char *room_name, float *temperature) {
     int i = 0;
     if (strcmp(choice, room_name) == 0) {
-        printf("\n%.1f\u00B0C ", *temperature);
+        printf("\n%4.1f\u00B0C ", *temperature);
         if (*temperature >= 0 && *temperature <= 30) {
             while (i < ((int)(*temperature * 2))) {
                 printf("-");
@@ -75,7 +76,6 @@ FILE *open_file(char *filename, char *mode) {
     }
     return file;
 }
-
 
 int read_line(char *str, int max_strlen, FILE *file) {
     char *return_value;
