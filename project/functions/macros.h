@@ -4,7 +4,7 @@
 #define ROOM_NAME_LEN 50
 #define MAX_ROOMS 10
 #define CHOSEN_ROOM "Living Room"
-#define CSV_FILE "./generated_errors.csv"
+#define CSV_FILE "./test.csv"
 //#define DEBUG
 
 // This is something to think about

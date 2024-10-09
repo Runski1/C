@@ -1,0 +1,1001 @@
+Temperature,Room
+25.0,Kitchen
+-0.4,Garage
+30.7,Bedroom
+30.2,Living Room
+2.4,Garage
+21.0,Bedroom
+12.6,Living Room
+4.3,Dining Room
+20.9,Dining Room
+3.1,Bedroom
+2.3,Bedroom
+34.8,Dining Room
+24.3,Library
+10.9,Garage
+-0.3,Library
+33.2,Dining Room
+14.6,Attic
+26.9,Garage
+13.1,Bedroom
+20.9,Attic
+25.7,Garage
+12.3,Kitchen
+30.3,Kitchen
+15.9,Library
+34.1,Kitchen
+29.1,Garage
+24.0,Attic
+6.5,Library
+34.1,Attic
+23.0,Attic
+19.2,Kitchen
+28.6,Garage
+27.7,Bedroom
+20.4,Kitchen
+7.5,Kitchen
+17.1,Bedroom
+30.9,Library
+28.2,Garage
+26.3,Library
+25.6,Library
+19.1,Attic
+29.3,Living Room
+18.5,Living Room
+15.2,Bedroom
+25.7,Living Room
+3.8,Garage
+32.6,Living Room
+19.8,Garage
+25.7,Library
+28.4,Bedroom
+24.3,Dining Room
+2.9,Dining Room
+22.7,Dining Room
+7.8,Dining Room
+15.8,Kitchen
+11.1,Attic
+2.9,Garage
+1.3,Bedroom
+-0.5,Living Room
+18.7,Garage
+4.5,Garage
+23.2,Bedroom
+1.7,Living Room
+34.0,Attic
+2.3,Kitchen
+20.7,Bedroom
+5.8,Garage
+2.7,Kitchen
+34.1,Garage
+8.4,Living Room
+6.3,Attic
+9.8,Attic
+11.4,Kitchen
+14.0,Bedroom
+24.3,Dining Room
+17.0,Dining Room
+27.8,Dining Room
+7.4,Dining Room
+11.9,Living Room
+22.1,Bedroom
+17.9,Attic
+13.9,Kitchen
+31.4,Garage
+18.7,Living Room
+12.7,Kitchen
+8.4,Attic
+13.9,Kitchen
+9.2,Garage
+18.1,Bedroom
+25.9,Garage
+20.4,Attic
+21.6,Living Room
+19.0,Kitchen
+31.5,Kitchen
+4.9,Bedroom
+3.4,Garage
+3.3,Attic
+22.2,Library
+27.5,Bedroom
+8.7,Kitchen
+32.1,Living Room
+18.0,Attic
+1.0,Library
+21.8,Living Room
+12.2,Bedroom
+21.6,Bedroom
+17.2,Garage
+-0.6,Garage
+17.2,Garage
+15.7,Garage
+12.3,Library
+16.3,Attic
+28.2,Bedroom
+14.9,Kitchen
+19.0,Bedroom
+13.9,Kitchen
+4.0,Dining Room
+28.9,Kitchen
+11.9,Kitchen
+34.0,Garage
+9.4,Dining Room
+32.3,Bedroom
+8.7,Dining Room
+4.1,Bedroom
+3.0,Dining Room
+22.8,Living Room
+30.0,Living Room
+16.7,Dining Room
+33.1,Bedroom
+17.3,Dining Room
+29.2,Dining Room
+20.6,Bedroom
+23.5,Library
+11.5,Library
+27.9,Living Room
+17.7,Living Room
+12.4,Living Room
+30.9,Dining Room
+17.1,Dining Room
+20.0,Living Room
+3.2,Attic
+28.6,Kitchen
+7.6,Living Room
+11.8,Attic
+30.8,Dining Room
+14.4,Attic
+16.5,Library
+27.2,Attic
+22.1,Bedroom
+27.1,Garage
+12.6,Garage
+0.9,Dining Room
+25.3,Garage
+8.9,Bedroom
+33.0,Kitchen
+32.5,Kitchen
+19.7,Library
+32.7,Library
+18.9,Attic
+-0.0,Garage
+4.3,Garage
+19.8,Bedroom
+11.0,Kitchen
+32.0,Library
+2.3,Living Room
+2.8,Dining Room
+13.9,Kitchen
+1.3,Garage
+26.8,Library
+26.9,Dining Room
+25.8,Kitchen
+34.3,Attic
+25.5,Dining Room
+34.6,Garage
+3.6,Attic
+16.9,Garage
+29.2,Kitchen
+26.8,Attic
+34.3,Living Room
+0.0,Kitchen
+34.6,Garage
+27.5,Garage
+34.5,Attic
+10.8,Library
+2.3,Attic
+27.6,Bedroom
+16.2,Kitchen
+14.9,Garage
+7.4,Kitchen
+33.0,Bedroom
+22.9,Living Room
+-0.3,Bedroom
+27.2,Library
+29.8,Kitchen
+0.3,Attic
+23.7,Garage
+15.8,Kitchen
+2.7,Garage
+29.6,Kitchen
+0.4,Living Room
+27.5,Library
+11.1,Garage
+29.2,Library
+4.1,Kitchen
+26.2,Bedroom
+32.6,Attic
+20.4,Living Room
+28.8,Library
+8.7,Dining Room
+10.5,Living Room
+23.0,Library
+33.7,Garage
+29.2,Living Room
+21.1,Garage
+5.3,Living Room
+6.1,Attic
+17.0,Garage
+9.7,Bedroom
+2.0,Bedroom
+26.5,Dining Room
+22.6,Living Room
+13.2,Garage
+0.6,Kitchen
+3.6,Library
+6.4,Garage
+28.0,Living Room
+0.9,Kitchen
+-0.3,Dining Room
+17.5,Library
+14.1,Bedroom
+2.4,Living Room
+30.9,Kitchen
+24.2,Attic
+6.9,Bedroom
+7.1,Library
+4.8,Dining Room
+23.8,Kitchen
+25.9,Living Room
+18.3,Garage
+18.1,Attic
+18.1,Dining Room
+27.8,Library
+16.4,Attic
+30.8,Kitchen
+-0.2,Bedroom
+12.9,Dining Room
+2.7,Garage
+3.1,Bedroom
+1.4,Library
+18.3,Living Room
+22.4,Garage
+23.8,Dining Room
+21.7,Attic
+1.1,Living Room
+4.6,Library
+34.8,Garage
+2.6,Living Room
+7.7,Library
+19.9,Living Room
+25.2,Dining Room
+5.6,Kitchen
+29.1,Garage
+7.5,Garage
+17.8,Library
+14.3,Dining Room
+26.5,Attic
+32.8,Kitchen
+1.3,Attic
+12.2,Living Room
+30.2,Kitchen
+11.8,Dining Room
+2.3,Kitchen
+19.1,Living Room
+24.5,Bedroom
+5.9,Library
+21.2,Garage
+3.5,Kitchen
+14.0,Library
+30.7,Bedroom
+25.3,Library
+-0.9,Library
+14.0,Kitchen
+8.5,Attic
+21.3,Library
+32.0,Bedroom
+5.7,Dining Room
+15.5,Living Room
+15.5,Attic
+9.9,Living Room
+19.6,Dining Room
+32.6,Library
+12.3,Bedroom
+13.9,Living Room
+13.8,Kitchen
+19.9,Library
+6.9,Dining Room
+27.7,Garage
+23.0,Dining Room
+22.7,Garage
+15.1,Library
+16.9,Living Room
+10.6,Living Room
+9.3,Library
+6.8,Dining Room
+16.9,Bedroom
+2.1,Garage
+19.4,Library
+1.3,Kitchen
+11.4,Living Room
+20.6,Attic
+30.6,Library
+21.5,Garage
+1.8,Dining Room
+7.3,Living Room
+6.7,Attic
+13.5,Garage
+28.3,Library
+3.7,Kitchen
+12.1,Garage
+31.4,Dining Room
+25.7,Library
+4.3,Living Room
+31.6,Living Room
+31.0,Attic
+2.1,Attic
+16.0,Attic
+9.2,Library
+29.9,Attic
+4.6,Garage
+-0.4,Kitchen
+33.5,Living Room
+32.9,Attic
+28.6,Living Room
+23.8,Dining Room
+14.0,Living Room
+26.3,Living Room
+16.0,Dining Room
+25.0,Bedroom
+3.3,Bedroom
+3.0,Attic
+17.9,Bedroom
+29.8,Kitchen
+12.8,Dining Room
+5.5,Library
+25.1,Library
+33.8,Library
+33.6,Kitchen
+21.5,Bedroom
+3.0,Kitchen
+34.4,Bedroom
+30.5,Library
+34.5,Library
+24.5,Library
+19.0,Attic
+7.6,Attic
+11.3,Garage
+7.4,Kitchen
+6.8,Dining Room
+9.5,Kitchen
+34.4,Garage
+1.8,Garage
+11.7,Attic
+30.9,Living Room
+34.6,Dining Room
+20.2,Garage
+0.8,Kitchen
+8.7,Bedroom
+14.8,Bedroom
+4.8,Living Room
+29.6,Kitchen
+8.8,Living Room
+21.0,Garage
+29.7,Garage
+15.8,Dining Room
+13.3,Bedroom
+29.4,Kitchen
+12.0,Living Room
+30.9,Living Room
+14.9,Kitchen
+0.1,Attic
+0.5,Living Room
+28.1,Bedroom
+23.5,Living Room
+33.9,Living Room
+3.7,Attic
+11.7,Bedroom
+31.9,Garage
+29.2,Library
+5.0,Garage
+10.4,Garage
+27.7,Bedroom
+24.8,Garage
+10.0,Bedroom
+5.3,Dining Room
+32.5,Kitchen
+8.7,Bedroom
+21.7,Bedroom
+27.6,Dining Room
+10.1,Library
+21.5,Attic
+17.5,Bedroom
+12.6,Bedroom
+11.8,Dining Room
+28.9,Living Room
+24.1,Dining Room
+8.5,Living Room
+23.9,Kitchen
+27.4,Garage
+18.8,Bedroom
+8.2,Attic
+1.4,Dining Room
+25.8,Living Room
+4.9,Kitchen
+4.9,Garage
+4.7,Living Room
+15.8,Bedroom
+9.7,Living Room
+13.1,Attic
+31.5,Library
+23.6,Bedroom
+30.6,Library
+-0.8,Living Room
+4.0,Attic
+28.5,Dining Room
+9.8,Library
+33.8,Dining Room
+4.9,Bedroom
+7.8,Attic
+24.5,Living Room
+18.8,Kitchen
+32.8,Living Room
+31.9,Bedroom
+32.4,Living Room
+32.3,Garage
+-0.3,Library
+34.2,Dining Room
+17.9,Library
+20.0,Garage
+-0.0,Living Room
+33.3,Bedroom
+31.1,Kitchen
+16.0,Garage
+22.7,Attic
+25.8,Garage
+4.7,Kitchen
+7.1,Garage
+17.0,Bedroom
+6.8,Attic
+20.9,Dining Room
+21.1,Garage
+11.5,Attic
+31.0,Library
+12.9,Library
+5.3,Dining Room
+5.1,Garage
+29.3,Bedroom
+30.3,Library
+13.1,Bedroom
+8.7,Garage
+12.7,Living Room
+23.8,Living Room
+20.5,Kitchen
+25.5,Kitchen
+21.9,Attic
+26.0,Bedroom
+8.3,Living Room
+26.1,Garage
+31.3,Dining Room
+34.6,Garage
+4.7,Attic
+23.6,Garage
+24.1,Attic
+31.4,Bedroom
+6.2,Bedroom
+0.2,Library
+0.7,Dining Room
+9.9,Kitchen
+0.3,Garage
+29.8,Living Room
+28.1,Library
+4.5,Kitchen
+26.3,Library
+10.2,Living Room
+5.7,Garage
+1.4,Living Room
+0.8,Dining Room
+29.3,Garage
+15.5,Dining Room
+5.1,Dining Room
+16.4,Bedroom
+10.6,Kitchen
+-0.4,Kitchen
+17.6,Dining Room
+12.5,Bedroom
+34.7,Attic
+33.3,Garage
+27.7,Garage
+33.0,Library
+33.1,Kitchen
+26.7,Garage
+33.3,Bedroom
+4.9,Library
+31.3,Living Room
+13.2,Dining Room
+29.4,Attic
+12.6,Kitchen
+30.5,Living Room
+24.1,Garage
+9.0,Kitchen
+21.0,Living Room
+10.4,Kitchen
+14.7,Library
+5.0,Kitchen
+8.2,Attic
+11.8,Kitchen
+14.1,Kitchen
+0.3,Living Room
+5.9,Garage
+4.1,Dining Room
+21.6,Garage
+15.3,Dining Room
+24.6,Attic
+-0.3,Living Room
+7.2,Attic
+-0.8,Library
+16.7,Dining Room
+25.7,Living Room
+1.8,Library
+13.8,Bedroom
+10.3,Living Room
+26.7,Garage
+15.2,Attic
+1.3,Dining Room
+13.9,Dining Room
+16.9,Kitchen
+-0.5,Kitchen
+13.9,Attic
+8.1,Living Room
+24.5,Dining Room
+8.0,Garage
+1.8,Kitchen
+8.1,Kitchen
+29.3,Dining Room
+1.2,Kitchen
+33.9,Bedroom
+26.1,Living Room
+22.0,Kitchen
+5.0,Bedroom
+34.8,Living Room
+17.3,Kitchen
+16.9,Dining Room
+24.7,Kitchen
+4.7,Library
+12.3,Garage
+6.1,Library
+32.4,Library
+0.9,Kitchen
+19.2,Garage
+31.3,Dining Room
+27.3,Attic
+24.0,Garage
+13.0,Library
+34.9,Attic
+15.7,Kitchen
+2.0,Attic
+-0.9,Bedroom
+21.2,Attic
+15.4,Kitchen
+15.5,Library
+11.9,Living Room
+1.0,Living Room
+31.3,Dining Room
+21.0,Dining Room
+2.3,Library
+18.3,Bedroom
+12.4,Attic
+3.2,Attic
+-0.7,Living Room
+10.4,Bedroom
+33.5,Library
+22.6,Living Room
+0.4,Kitchen
+28.5,Attic
+15.2,Bedroom
+9.0,Dining Room
+-1.0,Library
+17.1,Bedroom
+31.9,Bedroom
+4.9,Library
+5.2,Attic
+23.7,Garage
+0.3,Dining Room
+23.9,Garage
+0.7,Dining Room
+6.6,Bedroom
+29.7,Garage
+4.2,Attic
+9.8,Living Room
+27.4,Dining Room
+11.9,Living Room
+2.8,Attic
+2.5,Attic
+18.0,Library
+25.0,Bedroom
+18.0,Bedroom
+31.3,Dining Room
+11.1,Bedroom
+3.8,Garage
+25.9,Dining Room
+32.5,Library
+24.1,Bedroom
+4.4,Living Room
+17.7,Kitchen
+25.4,Garage
+1.8,Kitchen
+2.5,Bedroom
+5.3,Attic
+15.5,Living Room
+26.0,Garage
+32.1,Dining Room
+34.9,Living Room
+24.7,Attic
+8.2,Garage
+22.1,Kitchen
+25.0,Living Room
+26.9,Bedroom
+29.6,Attic
+4.6,Living Room
+22.0,Bedroom
+20.0,Kitchen
+28.1,Library
+3.0,Bedroom
+14.5,Dining Room
+26.0,Library
+31.4,Attic
+12.2,Living Room
+1.7,Kitchen
+2.1,Living Room
+25.9,Attic
+6.8,Bedroom
+7.5,Attic
+8.7,Bedroom
+2.7,Bedroom
+29.6,Kitchen
+33.2,Living Room
+14.5,Dining Room
+11.0,Bedroom
+-0.2,Dining Room
+11.3,Kitchen
+11.7,Attic
+32.5,Garage
+22.4,Garage
+21.5,Attic
+11.7,Living Room
+25.8,Garage
+32.3,Dining Room
+0.4,Kitchen
+15.6,Bedroom
+11.0,Garage
+13.5,Living Room
+17.5,Library
+15.2,Library
+24.8,Garage
+9.3,Attic
+5.0,Library
+2.3,Living Room
+6.9,Kitchen
+23.7,Living Room
+25.7,Library
+30.3,Kitchen
+14.0,Living Room
+12.0,Garage
+32.1,Dining Room
+34.9,Library
+22.0,Attic
+7.1,Dining Room
+14.9,Living Room
+26.4,Attic
+3.2,Kitchen
+16.4,Garage
+33.5,Attic
+25.5,Living Room
+11.6,Dining Room
+3.7,Bedroom
+25.1,Living Room
+23.8,Library
+13.3,Library
+18.5,Dining Room
+22.1,Living Room
+32.9,Garage
+6.7,Living Room
+17.1,Living Room
+32.3,Dining Room
+32.9,Garage
+19.0,Garage
+18.7,Bedroom
+9.8,Bedroom
+25.7,Garage
+2.0,Kitchen
+31.1,Garage
+29.1,Garage
+20.1,Dining Room
+0.3,Kitchen
+18.1,Library
+8.2,Bedroom
+33.3,Library
+27.7,Attic
+16.5,Attic
+17.0,Living Room
+33.5,Library
+15.9,Library
+1.4,Bedroom
+28.7,Library
+9.0,Bedroom
+23.2,Attic
+11.0,Library
+19.7,Kitchen
+10.3,Library
+7.0,Attic
+7.9,Attic
+6.9,Living Room
+2.8,Library
+13.5,Kitchen
+8.2,Living Room
+4.3,Kitchen
+15.5,Dining Room
+17.8,Dining Room
+27.6,Dining Room
+29.7,Dining Room
+0.6,Dining Room
+10.1,Attic
+32.4,Bedroom
+30.8,Library
+14.6,Attic
+26.9,Garage
+21.8,Kitchen
+9.4,Garage
+8.2,Kitchen
+15.2,Dining Room
+28.3,Attic
+33.3,Dining Room
+22.4,Living Room
+16.7,Garage
+25.9,Kitchen
+24.8,Kitchen
+11.8,Attic
+24.5,Attic
+7.3,Kitchen
+18.6,Kitchen
+19.6,Library
+13.4,Library
+33.4,Garage
+30.8,Garage
+34.2,Dining Room
+26.9,Dining Room
+13.6,Dining Room
+28.3,Bedroom
+0.7,Kitchen
+27.2,Bedroom
+34.6,Living Room
+20.3,Kitchen
+3.1,Kitchen
+32.1,Garage
+5.1,Library
+25.8,Attic
+16.3,Library
+5.7,Attic
+8.5,Kitchen
+13.6,Garage
+17.5,Bedroom
+6.1,Garage
+21.2,Attic
+1.9,Dining Room
+25.3,Attic
+0.1,Garage
+0.9,Attic
+7.5,Attic
+10.7,Attic
+7.3,Garage
+27.5,Bedroom
+23.4,Living Room
+29.5,Kitchen
+2.8,Living Room
+7.3,Attic
+16.3,Library
+19.2,Dining Room
+26.8,Bedroom
+13.9,Attic
+-0.1,Living Room
+0.7,Garage
+19.4,Dining Room
+15.0,Attic
+30.7,Library
+33.7,Living Room
+21.1,Dining Room
+33.8,Living Room
+-0.3,Garage
+4.3,Bedroom
+23.0,Kitchen
+21.4,Garage
+32.3,Garage
+8.0,Dining Room
+7.8,Living Room
+24.0,Bedroom
+16.1,Dining Room
+2.9,Living Room
+25.5,Bedroom
+2.1,Garage
+32.2,Dining Room
+14.9,Garage
+9.1,Dining Room
+27.3,Living Room
+24.1,Attic
+11.4,Library
+32.4,Living Room
+16.2,Kitchen
+13.0,Library
+19.8,Garage
+10.3,Bedroom
+6.6,Library
+24.1,Living Room
+27.3,Bedroom
+8.9,Attic
+8.2,Living Room
+13.6,Living Room
+23.5,Library
+8.0,Kitchen
+10.4,Garage
+0.1,Bedroom
+20.0,Bedroom
+33.0,Kitchen
+28.0,Kitchen
+30.4,Living Room
+6.4,Kitchen
+5.0,Dining Room
+11.9,Bedroom
+29.1,Living Room
+22.9,Dining Room
+21.9,Attic
+27.4,Kitchen
+22.0,Kitchen
+27.0,Bedroom
+16.3,Garage
+11.6,Kitchen
+15.3,Garage
+32.4,Living Room
+3.9,Attic
+24.5,Library
+24.7,Library
+10.1,Library
+23.6,Attic
+23.1,Bedroom
+-0.5,Garage
+22.1,Bedroom
+12.3,Bedroom
+28.0,Library
+13.7,Garage
+32.4,Bedroom
+30.0,Living Room
+28.0,Attic
+11.7,Garage
+9.4,Garage
+27.2,Living Room
+33.2,Kitchen
+25.8,Garage
+9.8,Attic
+7.8,Kitchen
+2.7,Bedroom
+12.3,Dining Room
+17.7,Living Room
+13.7,Dining Room
+5.9,Dining Room
+32.8,Library
+34.2,Garage
+10.4,Attic
+2.8,Library
+25.5,Library
+3.2,Garage
+26.0,Bedroom
+5.1,Dining Room
+11.9,Living Room
+23.2,Garage
+9.3,Kitchen
+23.1,Library
+30.1,Dining Room
+28.5,Living Room
+26.1,Living Room
+20.7,Kitchen
+20.2,Attic
+22.7,Garage
+8.6,Bedroom
+2.8,Dining Room
+0.8,Dining Room
+20.2,Bedroom
+4.5,Living Room
+17.3,Dining Room
+22.9,Library
+15.8,Living Room
+29.6,Library
+14.4,Dining Room
+1.6,Bedroom
+-0.3,Garage
+2.3,Bedroom
+15.4,Bedroom
+11.1,Library
+21.6,Dining Room
+0.5,Living Room
+32.1,Garage
+-0.3,Kitchen
+28.4,Bedroom
+27.3,Kitchen
+18.5,Bedroom
+14.6,Bedroom
+33.4,Attic
+5.1,Kitchen
+26.9,Attic
+-0.5,Library
+23.4,Bedroom
+21.6,Dining Room
+14.2,Kitchen
+33.4,Living Room
+34.0,Attic
+12.1,Kitchen
+21.2,Bedroom
+16.4,Kitchen
+9.0,Attic
+22.5,Living Room
+-0.2,Attic
+-0.8,Attic
+13.5,Garage
+12.6,Bedroom
+-0.6,Dining Room
+27.4,Attic
+28.4,Library
+2.5,Library
+5.3,Living Room
+15.5,Living Room
+24.3,Kitchen
+7.9,Library
+34.9,Kitchen
+21.1,Bedroom
+5.9,Kitchen
+15.1,Library
+33.0,Living Room
+0.2,Bedroom
+11.6,Garage
+-0.6,Attic
+33.4,Garage
+4.1,Garage
+31.5,Dining Room
+6.6,Living Room
+27.4,Bedroom
+3.8,Library
+24.5,Attic
+8.9,Garage
+13.2,Garage
+23.3,Garage
+26.5,Garage
+16.7,Living Room
+27.1,Bedroom
+3.9,Bedroom
+24.1,Kitchen
+20.9,Garage
+22.6,Living Room
+1.0,Living Room
+14.9,Library
+22.3,Bedroom
+25.3,Garage
+11.9,Dining Room
+-0.4,Bedroom
+12.8,Living Room
+16.8,Attic
+9.8,Kitchen
+16.1,Library
+25.4,Dining Room
+34.4,Kitchen
+16.5,Living Room
+8.2,Attic
+25.9,Living Room
+31.8,Library
+10.9,Dining Room
+13.4,Kitchen
+20.7,Attic
+29.4,Attic
+9.2,Bedroom
+28.5,Garage
+5.5,Library
+1.5,Library
+7.5,Dining Room
+20.3,Attic
+6.4,Library
+10.1,Bedroom
+19.8,Attic
+26.7,Kitchen
+11.3,Dining Room
+26.0,Attic
+29.3,Dining Room
+-0.1,Dining Room
+5.2,Library
+17.4,Bedroom

@@ -1,5 +1,6 @@
 import csv
 import random
+import sys
 
 rooms = ["Living Room",
          "Bedroom",
@@ -22,4 +23,7 @@ def populate_csv(filename, num_entries):
             writer.writerow([temperature, room])
 
 
-populate_csv("Temperature.csv", 100)
+
+output_file = sys.argv[1]
+rows = int(sys.argv[2])
+populate_csv(output_file, rows)
