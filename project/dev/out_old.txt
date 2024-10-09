@@ -1,0 +1,690 @@
+File:functions/func.c func:get_rooms ln:79
+File:functions/func.c func:open_file ln:66
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
+File:functions/func.c func:read_line ln:102
+File:functions/func.c func:parse_line ln:22
+File:functions/func.c func:parse_line ln:29
+File:functions/func.c func:parse_line ln:36
+rooms[0] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[1] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[2] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[3] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[4] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[5] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[6] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[7] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[8] (null) found 0
+File:functions/func.c func:parse_line ln:48
+File:functions/func.c func:parse_line ln:36
+rooms[9] (null) found 0
+File:functions/func.c func:parse_line ln:48
+rooms[0] = (null)
+rooms[1] = (null)
+rooms[2] = (null)
+rooms[3] = (null)
+rooms[4] = (null)
+rooms[5] = (null)
+rooms[6] = (null)
+rooms[7] = (null)
+rooms[8] = (null)
+rooms[9] = (null)
