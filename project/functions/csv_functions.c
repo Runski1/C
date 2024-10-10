@@ -1,53 +1,9 @@
-#include "func.h"
+#include "tui_functions.h"
 #include "macros.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-void free_dobby(char *selection, char **rooms, int maxlen_rooms) {
-    free(selection);
-    int i = 0;
-    while (i < MAX_ROOMS) {
-        free(rooms[i]);
-        i++;
-    }
-}
-void clear_ibuf(void) {
-    char c;
-    while ((c = getchar()) != EOF && c != '\n') {
-    }
-}
-
-char *TUI(char **rooms) {
-    int choice = 0, i = 0;
-    do {
-        i = 0;
-        // CLEAR_TERMINAL
-        printf("Show room temperature records>\n");
-        while (i < MAX_ROOMS && rooms[i] != NULL) {
-            printf("(%d) %s\n", i + 1, rooms[i]);
-            i++;
-        }
-        scanf("%d", &choice); // FIX THIS SHIT
-        clear_ibuf();         ///////// Hotfixing shit
-    } while (choice < 1 || choice > i); // i instead of i+1 since it's ++'d once
-    return rooms[choice - 1];
-}
-
-void print_temperature(char *choice, char *room_name, float *temperature) {
-    int i = 0;
-    if (strcmp(choice, room_name) == 0) {
-        printf("\n%4.1f\u00B0C ", *temperature);
-        if (*temperature >= 0 && *temperature <= 30) {
-            while (i < ((int)(*temperature * 2))) {
-                printf("-");
-                i++;
-            }
-        } else {
-            printf("X");
-        }
-    }
-}
 
 int parse_line(char *line, char *choice, float *temperature, char **rooms) {
     /* This can operate two ways */
@@ -83,10 +39,12 @@ int parse_line(char *line, char *choice, float *temperature, char **rooms) {
         /* If scanf doesn't scan exactly two values, the line is just skipped */
     } else if ((ret_val = sscanf(line, "%f,%49[^\r\n]", temperature,
                                  room_name)) == 2) {
+        /* LOW PRIORITY maybe should return line */
         print_temperature(choice, room_name, temperature);
     }
     return EXIT_SUCCESS;
 }
+
 
 FILE *open_file(char *filename, char *mode) {
 
@@ -97,6 +55,24 @@ FILE *open_file(char *filename, char *mode) {
     }
     return file;
 }
+
+
+int read_line(char *str, int max_strlen, FILE *file) {
+    char *return_value;
+    return_value = fgets(str, max_strlen, file);
+    if (return_value == NULL || strchr(str, '\n') == NULL) {
+        if (feof(file)) {
+            clearerr(file);
+            return -1; // EOF
+        }
+        return 1; // Other invalid input, most likely too long line
+    } else {
+        char *linefeed = strchr(str, '\n');
+        *linefeed = '\0';
+        return 0;
+    }
+}
+
 
 int read_from_csv(char *str, char *filename, int line_length, char **rooms,
                   char *selected_room, float *temperature) {
@@ -124,18 +100,3 @@ int read_from_csv(char *str, char *filename, int line_length, char **rooms,
     return 0;
 }
 
-int read_line(char *str, int max_strlen, FILE *file) {
-    char *return_value;
-    return_value = fgets(str, max_strlen, file);
-    if (return_value == NULL || strchr(str, '\n') == NULL) {
-        if (feof(file)) {
-            clearerr(file);
-            return -1; // EOF
-        }
-        return 1; // Other invalid input, most likely too long line
-    } else {
-        char *linefeed = strchr(str, '\n');
-        *linefeed = '\0';
-        return 0;
-    }
-}

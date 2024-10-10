@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -Wall -g -I../lib/
-SRCS = main.c functions/func.c
+SRCS = main.c functions/tui_functions.c functions/csv_functions.c functions/utils.c
 OBJS = $(SRCS:.c=.o)
 # Headers just for zipping the school assignment
-HDRS = functions/func.h functions/macros.h
+HDRS = functions/macros.h functions/tui_functions.h functions/csv_functions.h functions/utils.h test.csv
 TARGET = csv_reader
 
 # Build the target with dependencies, create target_name.out file (for .gitignore)
