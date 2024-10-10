@@ -6,7 +6,10 @@
 #include <string.h>
 #include "./functions/macros.h"
 
-
+/* EXTREMELY HIGH PRIORITY 
+ * If the last value in the list happens to be the chosen room,
+ * it get's printed out twice. FIX ASAP
+ * */
 
 int main(void) {
 
