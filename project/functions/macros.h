@@ -5,7 +5,7 @@
 #define MAX_ROOMS 10
 #define CHOSEN_ROOM "Living Room"
 #define CSV_FILE "./test.csv"
-//#define DEBUG
+#define DEBUG
 
 // This is something to think about
 // IF ROOM_NAME_LEN is changeable, I shouldn't hardcode limits in parse_line

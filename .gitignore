@@ -68,4 +68,5 @@ project/Projects_2024.pdf
 project/dev/
 project/functions/tui*
 project/generated_errors.csv
-
+project/*.csv
+project/*.bak
