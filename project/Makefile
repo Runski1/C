@@ -4,6 +4,7 @@ SRCS = main.c functions/tui_functions.c functions/csv_functions.c functions/util
 OBJS = $(SRCS:.c=.o)
 # Headers just for zipping the school assignment
 HDRS = functions/macros.h functions/tui_functions.h functions/csv_functions.h functions/utils.h test.csv
+OTHER = 
 TARGET = csv_reader
 
 # Build the target with dependencies, create target_name.out file (for .gitignore)

@@ -6,10 +6,6 @@
 #include <string.h>
 #include "./functions/macros.h"
 
-/* EXTREMELY HIGH PRIORITY 
- * If the last value in the list happens to be the chosen room,
- * it get's printed out twice. FIX ASAP
- * */
 
 int main(void) {
 
@@ -41,7 +37,6 @@ int main(void) {
      * */
     printf("%s", selection); // This should be moved, print temperature header line
     if(read_from_csv(line, CSV_FILE, LINE_LENGTH, NULL, selection, &temperature)) {
-        /* ADD ERR PRINTING HIGH PRIORITY */
         free_dobby(selection, rooms, MAX_ROOMS);
         return EXIT_FAILURE;
     }
